@@ -1,7 +1,7 @@
 ﻿<project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.job4j</groupId>
-    <artifactId>junior</artifactId>
+    <artifactId>stajer</artifactId>
     <packaging>pom</packaging>
     <version>2.0</version>
     <name>junior</name>
