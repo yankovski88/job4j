@@ -9,23 +9,25 @@ package ru.job4j.calculate;
 * @since 0.1
 */
 public class Calculate {
+	
 /**
-*Конструктор выводит строки в консоль.
-@param args -args.
-*/
+ * Method main
+ * @param args array of strings
+ */
     public static void main(String[] args) {
 		
 
         System.out.println("Hello World");
 		
-		/**
+		
+
+    }
+	/**
 * Method echo.
 * @param name yura yankovski.
 * @return Echo plus your name.
 */
 public String echo(String name) {
     return "Echo, echo, echo : " + name;
-}
-
-    }
+		}
 }
