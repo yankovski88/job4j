@@ -3,7 +3,7 @@ package ru.job4j.calculate;
 
 /**
 * Package for calculate task.
-*
+
 * @author Yura Yankovski (mailto:@mail.ru)
 * @version $Id$
 * @since 0.1
