@@ -11,7 +11,7 @@ package ru.job4j.calculate;
 public class Calculate {
 /**
 *Конструктор выводит строки в консоль.
-@param args - args.
+@param args -args.
 */
     public static void main(String[] args) {
 		
