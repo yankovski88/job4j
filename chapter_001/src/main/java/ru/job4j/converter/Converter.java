@@ -22,4 +22,10 @@ public class Converter {
     public int rubleToDollar(int value) {
         return value / 60;
     }
+    public int dollarToRuble(int value) {
+        return value * 60;
+    }
+    public int euroToRuble (int value) {
+        return value * 70;
+    }
 }
