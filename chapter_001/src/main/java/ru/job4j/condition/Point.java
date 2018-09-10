@@ -49,4 +49,12 @@ public class Point {
         double result = a.distanceTo(b);
         System.out.println("Расстояние между точками А и В : " + result);
     }
+
+    public double getResult() {
+        return result;
+    }
+
+    public void setResult(double result) {
+        this.result = result;
+    }
 }
