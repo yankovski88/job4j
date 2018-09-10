@@ -4,10 +4,15 @@ package ru.job4j.calculator;
 public class Calculator {
     private double result;
 
-    public void add (double first, double second){
-        this.result = first + second;
-    }
+    /**
+     * умножение
+     * @param first
+     * @param second
+     */
 
+    public void multiplication (double first, double second) {
+        this.result = first * second;
+    }
 
     /**
      * division Деление
@@ -18,14 +23,14 @@ public class Calculator {
         this.result = first / second;
     }
     /**
-     * умножение
-     * @param first
-     * @param second
+     * Сложение
+     * @param first делимое
+     * @param second делитель
      */
-
-    public void multiplication (double first, double second) {
-        this.result = first * second;
+    public void add (double first, double second){
+        this.result = first + second;
     }
+
 
     /**
      * вычетание
