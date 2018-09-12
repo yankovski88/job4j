@@ -1,6 +1,8 @@
-package ru.job4j.DummyBot;
+package ru.job4j.DummyBotTest;
 
 import org.junit.Test;
+import ru.job4j.DummyBot.DummyBot;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
