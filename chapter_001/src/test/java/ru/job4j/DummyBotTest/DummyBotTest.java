@@ -11,7 +11,7 @@ public class DummyBotTest {
     public void whenGreetBot() {
         DummyBot bot = new DummyBot();
         assertThat(bot.answer("Привет, Бот."),
-                is("Привет, умник")
+                is("Привет, умник.")
 
         );
     }
