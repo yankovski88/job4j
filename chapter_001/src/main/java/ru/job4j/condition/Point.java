@@ -8,6 +8,7 @@ package ru.job4j.condition;
  * @since 0.1
  *
  */
+/*
 public class Point {
     public int x;
     public int y;
@@ -15,6 +16,7 @@ public class Point {
      *
      * и конструктор.
      */
+/*
     public Point (int x, int y) {
         this.x = x;
         this.y = y;
@@ -22,6 +24,7 @@ public class Point {
     /**
      *измеряет расстояние
      */
+    /*
     public double distanceTo (Point that) {
         // Точка А - это текущая точка. К ней мы обращаемся через оператор this.
        // Point a = this;
@@ -58,3 +61,4 @@ public class Point {
         this.result = result;
     }
 }
+*/
