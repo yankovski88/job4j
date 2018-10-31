@@ -23,7 +23,7 @@ public class MaxTest {
     public void whenEnterThreeNumberThenViborMax(){
         Max numb = new Max();
         int expect = 3;
-        int max_num = numb.maxthird(1,2,3);
+        int max_num = numb.biger(1,2,3);
         assertThat(max_num, is(expect));
     }
 }
