@@ -13,7 +13,7 @@ public class Check {
             }else {result = false;}
         }System.out.println(result);
         }
-        //return result;
+        ///return result;
     public static void main(String args[]){
         boolean[] data = new boolean[] {true};
         Check.mono(data);
