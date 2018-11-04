@@ -14,25 +14,13 @@ public class FindLoop {
                 if(data[index] == el){
                     rst = index;
                     break;
-                }
+                }else {return rst;}
             }return rst;
             //System.out.println(rst);
 
         }
 //    public static void main(String[] args){
 //            int[] data = {1, 2, 3};
-//            FindLoop.indexOf(data, 2);
-//    }
-}
-//public class FindLoop {
-//    public int indexOf(int[] data, int el) {
-//        int rst = -1; // если элемента нет в массиве, то возвращаем -1.
-//        for (...) {
-//            if (data[index] == el) {
-//                rst = index;
-//                break;
-//            }
-//        }
-//        return rst;
-//    }
-//}
+//            FindLoop.indexOf(data, 5);
+    }
+
